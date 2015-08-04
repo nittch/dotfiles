@@ -11,6 +11,9 @@
     ~/.vimrc: vimrc
     ~/.zshrc: zshenv
     ~/.zshenv: zshenv
+    ~/.signature: signature
+    ~/.login_conf: login_conf
+    ~/.caffrc: caffrc
 
 - shell:
     -
