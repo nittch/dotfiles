@@ -1,0 +1,9 @@
+[user]
+	name = Nicolas TANDE (nittch)
+	email = nittch@linkea.org
+
+[core]
+	excludesfile = ~/.gitignore_global
+
+[color]
+	ui = true

@@ -1,3 +1,18 @@
-- clean: []
-- link: {}
-- shell: []
+- clean: [ "~", "~/.config" ]
+- link:
+    ~/.dotfiles: ""
+
+    ~/.config/htop: config/htop
+    ~/.gitconfig: gitconfig
+    ~/.gitignore_global: gitignore_global
+    ~/.tmux.conf: tmux.conf
+    ~/.vars: vars
+    ~/.vim: vim/
+    ~/.vimrc: vimrc
+    ~/.zshrc: zshenv
+    ~/.zshenv: zshenv
+
+- shell:
+    -
+      - "git submodule update --init --recursive"
+      - "Installing/updating submodules"
