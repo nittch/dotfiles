@@ -9,7 +9,7 @@ if [ "$ARCH" = "Linux" ]
 then
   alias ls='ls -F --color=auto'
 fi
-if [ "$ARCH" = "FreeBSD" ]
+if [ "$ARCH" = "FreeBSD" -o "$ARCH" = "Darwin" ]
 then
   export CLICOLOR=1 # ls with colors
   alias ls='ls -F'
