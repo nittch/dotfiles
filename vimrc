@@ -49,9 +49,11 @@ set background=dark
 set mouse=a
 "set cul
 if has("gui_running")
+  set guifont=DejaVu\ Sans\ Mono:h10
   colorscheme koehler
+  set guioptions-=T
+  set guioptions-=m
 endif
-set guioptions-=T
 set ruler
 
 " Autocmd "
@@ -127,6 +129,10 @@ vnoremap <F2> <C-o>:call <SID>ToggleMouse()<CR>
 
 
 set pastetoggle=<F5>
+
+noremap <F6> :match Ignore /\r$/<CR>
+inoremap <F6> :match Ignore /\r$/<CR>
+vnoremap <F6> :match Ignore /\r$/<CR>
 
 " pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim

@@ -47,3 +47,4 @@ export LSCOLORS="dxGxbxhxCxDxDxhbhbacad"
 
 alias vrac=~/web/vrac/vrac.sh
 
+alias grep="grep --color=auto"
