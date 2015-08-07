@@ -28,16 +28,7 @@ endif
 
 " plugin syntastic pour C++11
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -Wall -W -Wextra'
-let g:syntastic_cpp_include_dirs = [ 'includes', 'include', '../include', '/home/nicolas/devel/FiatLux/FiatLuxNet/trunk/include/', '/home/nicolas/devel/FiatLux/FiatLuxNet/trunk/libeikeotools/include/' ]
-" let g:syntastic_cpp_auto_refresh_includes = 1
-" let g:syntastic_cpp_remove_include_errors = 1
-" let g:syntastic_cpp_check_header = 1
-" 
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-" set statusline+=%*
-" let g:syntastic_enable_signs=1
-" let g:syntastic_auto_loc_list=1
+let g:syntastic_cpp_include_dirs = [ 'includes', 'include', '../include' ]
 
 " espace insequable utf8
 highlight BadSpace ctermbg=magenta guibg=magenta
