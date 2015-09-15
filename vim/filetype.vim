@@ -10,3 +10,6 @@ augroup END
 augroup filetypedetect
 	au BufNewFile,BufRead *.cl	setf opencl 
 augroup END
+augroup filetypedetect
+	au BufNewFile,BufRead *.page	setf markdown
+augroup END

@@ -3,6 +3,7 @@
 ARCH="$(uname -s)"
 
 export LANG=fr_FR.UTF-8
+export LC_ALL=fr_FR.UTF-8
 
 which vim >/dev/null 2>&1
 if [ $? -eq 0 ]; then 
