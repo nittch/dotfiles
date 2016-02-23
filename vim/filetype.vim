@@ -13,3 +13,6 @@ augroup END
 augroup filetypedetect
 	au BufNewFile,BufRead *.page	setf markdown
 augroup END
+augroup filetypedetect
+	au BufNewFile,BufRead *.sls	setf yaml
+augroup END
