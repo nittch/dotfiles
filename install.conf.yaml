@@ -2,7 +2,6 @@
 - link:
     ~/.dotfiles: ""
 
-    ~/.config/htop: config/htop
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.tmux.conf: tmux.conf
