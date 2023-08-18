@@ -1,9 +1,13 @@
 [user]
 	name = Nicolas TANDE
 	email = nittch@linkea.org
+	signingkey = 9FC4568F08AB50F59C5B8CCE6C586D068943F81F
 
 [core]
 	excludesfile = ~/.gitignore_global
 
 [color]
 	ui = true
+
+[commit]
+	gpgsign = true

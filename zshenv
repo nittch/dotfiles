@@ -73,7 +73,7 @@ setopt LIST_TYPES
 setopt LIST_PACKED
 zstyle ':completion:*' menu select=10
 zstyle ':completion:*' use-compctl false
-hosts=( alpha.linkea.org ectoplasme.linkea.org voyager.linkea.org trololo.linkea.org taudis.cumulogranite.fr copilote.cumulogranite.fr pied-a-terre.cumulogranite.fr bacasable.cumulogranite.fr secouriste.cumulogranite.fr neuroexe.com host.neuroexe.com rocketpoets.net mail.linkea.org beta.linkea.org )
+hosts=( alpha.linkea.org beta.linkea.org gamma.linkea.org web.linkea.org nabila.linkea.org unifi.linkea.org ipa.linkea.org mnemosyne.linkea.org secouriste.cumulogranite.fr kouign-amann.cumulogranite.fr blockhaus.cumulogranite.fr luxushotel.cumulogranite.fr cave.cumulogranite.fr )
 zstyle ':completion:*' hosts $hosts
 zstyle ':completion:*' format $'%{\e[0;32m%}-=> %{\e[0;32m%}%B%d%b%{\e[0;0m%}'
 zstyle ':completion:*' completer _complete _correct _approximate
