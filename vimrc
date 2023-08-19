@@ -13,7 +13,6 @@ syntax on
 let c_space_errors = 1
 set completeopt=menu,preview
 set shiftwidth=2
-"set tags=/home/nittch/taff/metaheuristique/meta/src/ctags
 set foldnestmax=1
 set foldmethod=syntax
 set nofoldenable

@@ -1,10 +1,10 @@
 # .caffrc -- vim:ft=perl:
 # This file is in perl(1) format - see caff(1) for details.
 
-$CONFIG{'owner'} = 'Nicolas TANDE (nittch)';
+$CONFIG{'owner'} = 'Nicolas TANDE (Nittch)';
 $CONFIG{'email'} = 'nittch@linkea.org';
 $CONFIG{'reply-to'} = 'nittch@linkea.org';
-$CONFIG{'keyserver'} = 'pgp.mit.edu';
+$CONFIG{'keyserver'} = 'keys.openpgp.org';
 
 # You can get your long keyid from
 #   gpg --with-colons --list-key <yourkeyid|name|emailaddress..>
@@ -16,16 +16,10 @@ $CONFIG{'keyserver'} = 'pgp.mit.edu';
 #   $CONFIG{'keyid'} = [ qw{FEDCBA9876543210} ];
 #  or, if you have more than one key:
 #   $CONFIG{'keyid'} = [ qw{0123456789ABCDEF 89ABCDEF76543210} ];
-$CONFIG{'keyid'} = [ qw{5B58243CBE500356} ];
+$CONFIG{'keyid'} = [ qw{9FC4568F08AB50F59C5B8CCE6C586D068943F81F} ];
 #$CONFIG{'mailer-send'} =  [ 'smtp', Server => 'mail.nittch.linkea' ];
-$CONFIG{'also-encrypt-to'} = [ qw{5B58243CBE500356} ];
+$CONFIG{'also-encrypt-to'} = [ qw{9FC4568F08AB50F59C5B8CCE6C586D068943F81F} ];
 $CONFIG{'bcc'} = 'nittch@linkea.org';
-
-# Select this/these keys to sign with
-#$CONFIG{'local-user'} = [ qw{5B58243CBE500356} ];
-
-# Additionally encrypt messages for these keyids
-#$CONFIG{'also-encrypt-to'} = [ qw{5B58243CBE500356} ];
 
 # Mail template to use for the encrypted part
 #$CONFIG{'mail-template'} = << 'EOM';
