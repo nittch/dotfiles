@@ -2,8 +2,8 @@
 # This file is in perl(1) format - see caff(1) for details.
 
 $CONFIG{'owner'} = 'Nicolas TANDE (Nittch)';
-$CONFIG{'email'} = 'nittch@linkea.org';
-$CONFIG{'reply-to'} = 'nittch@linkea.org';
+$CONFIG{'email'} = 'nittch@proton.me';
+$CONFIG{'reply-to'} = 'nittch@proton.me';
 $CONFIG{'keyserver'} = 'keys.openpgp.org';
 
 # You can get your long keyid from
@@ -19,7 +19,7 @@ $CONFIG{'keyserver'} = 'keys.openpgp.org';
 $CONFIG{'keyid'} = [ qw{9FC4568F08AB50F59C5B8CCE6C586D068943F81F} ];
 #$CONFIG{'mailer-send'} =  [ 'smtp', Server => 'mail.nittch.linkea' ];
 $CONFIG{'also-encrypt-to'} = [ qw{9FC4568F08AB50F59C5B8CCE6C586D068943F81F} ];
-$CONFIG{'bcc'} = 'nittch@linkea.org';
+$CONFIG{'bcc'} = 'nittch@proton.me';
 
 # Mail template to use for the encrypted part
 #$CONFIG{'mail-template'} = << 'EOM';
